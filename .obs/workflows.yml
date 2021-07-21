@@ -1,0 +1,12 @@
+workflow:
+  steps:
+    - link_package:
+        source_project: openSUSE:Factory 
+        source_package: tealdeer
+  filters:
+    architectures:
+      only:
+        - x86_64
+    repositories:
+      only:
+        - openSUSE_Tumbleweed
