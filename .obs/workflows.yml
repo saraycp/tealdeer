@@ -1,7 +1,7 @@
 workflow:
   steps:
     - link_package:
-        source_project: openSUSE:Factory 
+        source_project: home:SCabreraPadron
         source_package: tealdeer
   filters:
     architectures:
