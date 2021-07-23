@@ -1,6 +1,6 @@
 workflow:
   steps:
-    - link_package:
+    - branch_package:
         source_project: home:SCabreraPadron
         source_package: tealdeer
   filters:
