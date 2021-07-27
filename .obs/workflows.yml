@@ -1,7 +1,7 @@
 workflow:
   steps:
     - branch_package:
-        source_project: home:SCabreraPadron
+        source_project: home:Admin:sandbox
         source_package: tealdeer
   filters:
     architectures:
